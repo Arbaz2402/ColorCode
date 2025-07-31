@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		08BD4CB22E3B66E60029182B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08BD4CB12E3B66E60029182B /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		08BD4C952E3B655D0029182B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		08BD4C842E3B655A0029182B /* ColorCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08BD4C942E3B655D0029182B /* ColorCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08BD4C9E2E3B655D0029182B /* ColorCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08BD4CB12E3B66E60029182B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		08BD4C7B2E3B655A0029182B = {
 			isa = PBXGroup;
 			children = (
+				08BD4CB12E3B66E60029182B /* GoogleService-Info.plist */,
 				08BD4C862E3B655A0029182B /* ColorCode */,
 				08BD4C972E3B655D0029182B /* ColorCodeTests */,
 				08BD4CA12E3B655D0029182B /* ColorCodeUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08BD4CB22E3B66E60029182B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
